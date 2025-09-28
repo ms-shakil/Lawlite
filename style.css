@@ -26,8 +26,8 @@ body{
 
 .header_container a{
     text-decoration: none;
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 500;
     line-height: 23px;
     color: #2D2F30;
     padding-right: 50px;
@@ -46,7 +46,7 @@ body{
 }
 .hero_left{
     width: 50%;
-    padding-left: 8%;
+    padding-left: 10%;
     margin-top: 50px;
 
 }
@@ -78,7 +78,7 @@ body{
 
 /*left bottom*/
 .left_bottom{
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .left_bottom p{
     color: #8B8C8C;
@@ -97,7 +97,7 @@ body{
 /*hero right*/
 .hero_right {
 
-     transform:translateX(-108px);   
+     transform:translateX(-90px);   
 }
 .hero_right img{
     width: 550px;
@@ -169,7 +169,8 @@ body{
 .achievement{
     width:100% ;
     height: 350px;
-    background-image: url("img/Rectangle\ 6.png");
+    background-image: url("img/Patterns.png");
+    background-color: #1282A6;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -211,4 +212,152 @@ body{
     font-size: 18px;
     font-weight: 400;
     color: white;
+}
+
+/*testimonial section*/
+.testimonial {
+    background-color: #F4FBFF;
+}
+.testimonial_content{
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.testimonial_heading{
+    font-size: 48px;
+    font-weight: 700;
+    color:#2D2F30 ;
+}
+.testimonial_cards{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.testimonail_card{
+    width: 540px;
+    height: 350px;
+
+    margin-top: 50px;
+}
+.card_top {
+    background-color: white;
+    height: 60%;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+
+}
+.card_top div{
+   font-size: 23px;
+   font-weight: 500;
+   color: #18191F;
+}
+.card_top p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #4F4F4F;
+}
+.bottom_icon{
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid yellow;
+    
+}
+.ceo_detail {
+    display: flex;
+    margin-left: 30%;
+    padding-top: 10%;
+}
+.ceo_detail img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+.ceo_name{
+    font-size: 20px;
+    font-weight: 700;
+    color: #151617;
+}
+.position_of_ceo{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #2D2F30;
+}
+
+/*complex section or service section*/
+.complex{
+  
+    height: 380px;
+}
+.complex_container{
+    display: flex;
+    margin-left: 12%;
+
+}
+.complex_left{
+    width: 80%;
+    padding-top: 50px;
+}
+.complex_heading{
+    font-size: 48px;
+    font-weight: 700;
+    color: #2D2F30;
+}
+.complex_left p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #4F4F4F;
+    padding: 20px 0px;
+}
+.complex_left button {
+    padding: 20px 50px;
+    font-size: 18px;
+    border: none;
+    background-color: #0F6E8C;
+    color: white;
+}
+
+.complex_right img{
+    border-radius:0px 0px 0px 40px;
+    box-sizing: border-box;
+    height:380px ;
+} 
+
+
+/*Footer*/
+.footer{
+    background-color: #0F6E8C;
+    width: 100%;
+    max-height: 600px;
+}
+
+.footer_top_content{
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 12%;
+    padding: 100px 0px;
+}
+th{
+    font-size: 20px;
+}
+th,td{
+    padding: 10px 40px;
+    text-align: left;
+    color: white;
+}
+
+/*footer bottom*/
+.footer_bottom{
+    padding: 40px;
+    background-color: #05546D;
+}
+.footer_bottom_contant{
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 15%;
+    color: white;
+}
+.footer_bottom_right i{
+    margin-right: 16px;
 }
